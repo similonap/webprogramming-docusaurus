@@ -31,10 +31,6 @@ function omitSections(content: string, titles: string[]): string {
 export function courseContent({filePath, fileContent}: {filePath: string; fileContent: string}): string {
   const file = filePath.replaceAll('\\', '/').split('/docs/').pop();
   let content = fileContent;
-  if (file === 'exercises/express/newspaper-route/README.md') {
-    content = content.replace('Bouw verder aan de [newspaper](../newspaper/README.md) opdracht.',
-      'Bouw verder aan je bestaande Newspaper-project.\n\n:::note Vooraf nodig\nDeze oefening veronderstelt een Newspaper-project met een aparte route per topic. De voorafgaande opgave ontbreekt in de broncursus en is daarom niet opgenomen in deze selectie.\n:::');
-  }
   if (file === 'nodejs-+-typescript/projectmaken.md') {
     content = omitSections(content, ['create-clean-node']);
   }

@@ -538,43 +538,8 @@ const sidebars: SidebarsConfig = {
         },
         {
           "type": "doc",
-          "id": "exercises/express/hello-query/README",
-          "label": "Hello Query"
-        },
-        {
-          "type": "doc",
           "id": "exercises/express/math-service-express/README",
           "label": "Math Service"
-        },
-        {
-          "type": "doc",
-          "id": "exercises/express/newspaper-route/README",
-          "label": "Newspaper Route"
-        },
-        {
-          "type": "doc",
-          "id": "exercises/express/newspaper-search/README",
-          "label": "Newspaper Search"
-        },
-        {
-          "type": "doc",
-          "id": "exercises/express/steam/README",
-          "label": "Steam"
-        },
-        {
-          "type": "doc",
-          "id": "exercises/express/petshelter-form/README",
-          "label": "Pet Shelter"
-        },
-        {
-          "type": "doc",
-          "id": "exercises/express/redirect-form/README",
-          "label": "Redirect Form"
-        },
-        {
-          "type": "doc",
-          "id": "exercises/express/contact-form/README",
-          "label": "Contact Form"
         },
         {
           "type": "doc",
@@ -587,11 +552,6 @@ const sidebars: SidebarsConfig = {
       "type": "category",
       "label": "9. Backend: MySQL en routing",
       "items": [
-        {
-          "type": "doc",
-          "id": "exercises/express/router-combi/README",
-          "label": "Router Combi"
-        },
         {
           "type": "doc",
           "id": "exercises/mysql/reiskosten-server/README",
@@ -648,22 +608,6 @@ const sidebars: SidebarsConfig = {
           "type": "doc",
           "id": "exercises/full-stack/pizza-builder/README",
           "label": "Full-Stack: Pizza Builder"
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "label": "12. Herhaling",
-      "items": [
-        {
-          "type": "doc",
-          "id": "exercises/express/twitter/README",
-          "label": "Twitter"
-        },
-        {
-          "type": "doc",
-          "id": "exercises/express/word-guess/README",
-          "label": "Word Guess"
         }
       ]
     },

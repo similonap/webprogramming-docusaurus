@@ -180,44 +180,12 @@
     "document": "exercises/express/dadjoke-express/README"
   },
   {
-    "source": "https://apwt.gitbook.io/ba-web-programming-v24/labos/labo7/labo9/hello-query.md",
-    "document": "exercises/express/hello-query/README"
-  },
-  {
     "source": "https://apwt.gitbook.io/ba-web-programming-v24/labos/labo7/labo9/math-service-express.md",
     "document": "exercises/express/math-service-express/README"
   },
   {
-    "source": "https://apwt.gitbook.io/ba-web-programming-v24/labos/labo7/labo9/newspaper-route.md",
-    "document": "exercises/express/newspaper-route/README"
-  },
-  {
-    "source": "https://apwt.gitbook.io/ba-web-programming-v24/labos/labo7/labo9/newspaper-search.md",
-    "document": "exercises/express/newspaper-search/README"
-  },
-  {
-    "source": "https://apwt.gitbook.io/ba-web-programming-v24/labos/labo7/labo9/steam.md",
-    "document": "exercises/express/steam/README"
-  },
-  {
-    "source": "https://apwt.gitbook.io/ba-web-programming-v24/labos/labo7/labo10/petshelter-form.md",
-    "document": "exercises/express/petshelter-form/README"
-  },
-  {
-    "source": "https://apwt.gitbook.io/ba-web-programming-v24/labos/labo7/labo10/redirect-form.md",
-    "document": "exercises/express/redirect-form/README"
-  },
-  {
-    "source": "https://apwt.gitbook.io/ba-web-programming-v24/labos/labo7/labo10/contact-form.md",
-    "document": "exercises/express/contact-form/README"
-  },
-  {
     "source": "https://apwt.gitbook.io/ba-web-programming-v24/labos/labo7/reiskosten-server.md",
     "document": "exercises/express/reiskosten-server/README"
-  },
-  {
-    "source": "https://apwt.gitbook.io/ba-web-programming-v24/labos/10.-backend-mysql-and-routing/router-combi.md",
-    "document": "exercises/express/router-combi/README"
   },
   {
     "source": "https://apwt.gitbook.io/ba-web-programming-v24/labos/10.-backend-mysql-and-routing/reiskosten-server.md",
@@ -254,14 +222,6 @@
   {
     "source": "https://apwt.gitbook.io/ba-web-programming-v24/labos/11.-fullstack-extra-and-datums/full-stack-pizza-builder.md",
     "document": "exercises/full-stack/pizza-builder/README"
-  },
-  {
-    "source": "https://apwt.gitbook.io/ba-web-programming-v24/labos/labo12/twitter.md",
-    "document": "exercises/express/twitter/README"
-  },
-  {
-    "source": "https://apwt.gitbook.io/ba-web-programming-v24/labos/labo12/word-guess.md",
-    "document": "exercises/express/word-guess/README"
   },
   {
     "source": "https://apwt.gitbook.io/ba-web-programming-v24/labos/extra/dna-match.md",

@@ -24,11 +24,11 @@ De productiebuild staat in `.course/build`. De starters en oplossingen van de ge
 - `sidebars.ts`: expliciete selectie en volgorde van theorie en oefeningen. Er zijn geen automatisch gegenereerde topicselecties.
 - `docusaurus.config.ts`: titel, navigatie, URL en buildinstellingen. Stel bij publicatie `COURSE_URL` in op de echte website-URL; lokaal is dit `http://localhost:3000`.
 - `config/content.ts`: filters voor onderdelen van gedeelde pagina’s die buiten deze cursus vallen. De oorspronkelijke monorepo-pagina’s blijven ongewijzigd. De build stopt als een verwachte sectie niet meer bestaat.
-- `config/exercise-sources.json`: herkomstcontrole voor de 69 geselecteerde oefeningen; dit bestand verschijnt niet op de cursuswebsite.
+- `config/exercise-sources.json`: herkomstcontrole voor de 59 geselecteerde oefeningen; dit bestand verschijnt niet op de cursuswebsite.
 - `DEKKING.md`: vergelijking en resterende hiaten.
 - `vercel.json`: bouwcommando en uitvoermap voor Vercel. Er is nog geen deployment of domein ingesteld.
 
-De eerste TypeScript-pagina is de startpagina. De algemene introductie, projecten en labo-overzichten van Webontwikkeling worden niet gebruikt: die verwijzen naar andere leerstof. EJS-voorbeelden in GET-/POST-requests blijven behouden, omdat die ook in de broncursus staan; een apart EJS-hoofdstuk wordt niet toegevoegd.
+De eerste TypeScript-pagina is de startpagina. De algemene introductie, projecten en labo-overzichten van Webontwikkeling worden niet gebruikt: die verwijzen naar andere leerstof. De labo’s die EJS gebruiken of daarop voortbouwen zijn uitgesloten. De theoriepagina’s blijven ongewijzigd.
 
 ## Werken met de vastgelegde submoduleversie
 

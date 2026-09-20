@@ -22,7 +22,7 @@ Dit is een beheerdocument, geen gepubliceerde cursuspagina. De cursus blijft vol
 | MySQL | `mysql/nodejs` |
 | Backend deployment | `express.js/deployment` (Render) |
 | Full Stack: form naar database, CORS | `full-stack/vite-planeten`, `full-stack/cors`, ondersteund door `mysql/gebruik-in-express` en de passende API-endpoints uit `mysql/crud-api` |
-| Labo’s en extra oefeningen | Alle 69 afzonderlijke oefenpagina’s uit de bron, expliciet opgenomen in `sidebars.ts`; koppeling per oefening in `config/exercise-sources.json` |
+| Labo’s en extra oefeningen | 59 oefenpagina’s uit de bron, na uitsluiting van de 10 EJS-gerelateerde oefeningen, expliciet opgenomen in `sidebars.ts`; koppeling per oefening in `config/exercise-sources.json` |
 
 De volgorde van de hoofddelen en oefeningen volgt de bron. De lege GitBook-rubriek **6. TS: Herhaling** krijgt geen lege pagina. Bij Full Stack staan de serveronderdelen vóór het formulier, zodat de gebruikte API eerst beschikbaar is. Het algemene Webontwikkeling-project, de introductie met MongoDB/security en de bestaande bredere labo-overzichten worden niet meegenomen.
 
@@ -43,14 +43,12 @@ De volgorde van de hoofddelen en oefeningen volgt de bron. De lege GitBook-rubri
 
 Deze hiaten zijn niet opgevuld met alternatieve onderwerpen. Nieuw lesmateriaal hoort eerst in de monorepo en kan daarna aan deze selectie toegevoegd worden.
 
-### Ontbrekende vooropgave in de bron
-
-**Newspaper Route** verwijst in GitBook naar een kapotte `broken://`-link voor de oorspronkelijke Newspaper-opgave. Deze vooropgave staat niet in de GitBook-inhoudsopgave. De monorepo bevat ze wel, maar ze is niet als extra oefening toegevoegd. De cursus vermeldt bij Newspaper Route dat een bestaand Newspaper-project nodig is. Dit raakt ook het vervolg Newspaper Search en de daarop voortbouwende Router Combi.
-
 ## Bewust buiten de selectie
 
 Geen aparte hoofdstukken voor tooling/Git/bash/devcontainers, EJS, algemene middleware, Express-tests, MongoDB, security, cookies/sessies/tokens, projecten of presentaties. Geen oefeningen die niet in de bron staan.
 
 Enkele gedeelde pagina’s bevatten extra secties. `config/content.ts` verwijdert voor deze cursus `create-clean-node`, het afzonderlijke `unknown`-onderdeel, Record-types, de afzonderlijke `as`-uitleg, de bijhorende brede quizzen, fetch-tests en mocking, en de PATCH-uitbreiding van de planeten-API. GET, POST en DELETE blijven behouden: die worden ook in de bronopgaven gebruikt. De eerder gevraagde TypeScript-access modifiers en de werkwijze met `database.ts`, `connect()` en `exit()` blijven behouden.
 
-EJS-code in requestvoorbeelden en oefeningen blijft staan waar dezelfde brononderdelen EJS gebruiken. Er wordt geen aanvullend EJS-hoofdstuk toegevoegd.
+EJS-code in de theorie over requests blijft staan. Op verzoek zijn op 20 september 2026 deze EJS-gerelateerde labo’s verwijderd uit de selectie: Hello Query, Newspaper Route, Newspaper Search, Steam, Pet Shelter, Redirect Form, Contact Form, Router Combi, Twitter en Word Guess. De daardoor lege rubriek 12. Herhaling is ook verwijderd.
+
+Hello Express, DadJoke en Math Service blijven behouden: deze opdrachten vereisen geen EJS. Math Service heeft wel een ongebruikte EJS-dependency in de gedeelde oplossing, maar de opdracht en code gebruiken uitsluitend JSON-responses.
