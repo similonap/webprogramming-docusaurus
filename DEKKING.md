@@ -11,7 +11,7 @@ Dit is een beheerdocument, geen gepubliceerde cursuspagina. De cursus blijft vol
 | TypeScript en Node.js, waarom TypeScript | `nodejs-+-typescript/wat-is-nodejs`, `waarom-typescript` |
 | Nieuw project, input lezen | `nodejs-+-typescript/projectmaken`, `input-lezen` |
 | Typesysteem: basistypes, arrays, functies, classes, interfaces | De overeenkomstige pagina’s onder `nodejs-+-typescript/type-systeem` |
-| Arraymethodes | `find`, `filter`, `map`, `reduce` onder `array-functions` |
+| Arraymethodes | Alle pagina’s onder `array-functions`: overzicht, `push/pop`, `shift/unshift`, `slice/splice`, `indexOf/lastIndexOf/includes`, `concat/join/reverse`, `forEach`, `find/findIndex`, `filter`, `map`, `reduce`, `every/some`, `sort` en chaining |
 | Exceptions | `nodejs-+-typescript/exceptions` |
 | Modules en npm | `modules-npm/modules`, `modules-npm/npm-packages` |
 | Asynchroon programmeren, promises, async/await, fetch | De overeenkomstige pagina’s onder `asynchroon-programmeren` |
@@ -34,7 +34,6 @@ De volgorde van de hoofddelen en oefeningen volgt de bron. De lege GitBook-rubri
 | [Conditionele blok](https://apwt.gitbook.io/ba-web-programming-v24/cursus/wat-is-nodejs/conditionele-blok) | Geen eigen theoriehoofdstuk over `if/else`, `switch/case` en logische operatoren. Deze constructies komen wel in voorbeelden voor. |
 | [Loops](https://apwt.gitbook.io/ba-web-programming-v24/cursus/wat-is-nodejs/loops) | Geen eigen theoriehoofdstuk over `for`, `for...of`, `while`, `do...while` en oneindige lussen. |
 | [Datum](https://apwt.gitbook.io/ba-web-programming-v24/cursus/wat-is-nodejs/type-systeem/datum) | Geen theoriehoofdstuk over `Date`, epoch, getters/setters en rekenen met datums. De timestamp- en Pokémon-array-oefeningen zijn wel opgenomen. |
-| [Array methods](https://apwt.gitbook.io/ba-web-programming-v24/cursus/wat-is-nodejs/array-methods) | De aparte hoofdstukken behandelen `find`, `filter`, `map` en `reduce`. De bredere uitleg over basismethodes, `findIndex`, `every/some`, `forEach`, sorteren en chaining ontbreekt als samenhangend onderdeel. |
 | [Nieuw project](https://apwt.gitbook.io/ba-web-programming-v24/cursus/wat-is-nodejs/projectmaken) | De bron heeft een update over TSX. De gedeelde projectinstructies gebruiken nog `ts-node` en bevatten die installatie/update niet. |
 | [Fetch](https://apwt.gitbook.io/ba-web-programming-v24/cursus/wat-is-nodejs/asynchroon-programmeren/fetch) | Het theorievoorbeeld met paging en het onderdeel over de structuur van fetch-code ontbreken. Paging wordt wel toegepast in de Pokémon-oefening. |
 | [JSON](https://apwt.gitbook.io/ba-web-programming-v24/cursus/wat-is-nodejs/asynchroon-programmeren/json) | Interfaces en JSON importeren zijn aanwezig. De aparte inleiding over JSON, keys/values en JSON-objecten tegenover JSON-arrays ontbreekt. |
